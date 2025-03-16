@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(148, 183, 252);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+  
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #2c2b2b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+hr{
+    border: 2px solid #2c2b2b;
+}
+  
+
+.container {
+    width: 100%;
+    margin: 20px;
+}
+  
+
+.movie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 5px rgb(0, 0, 0);
+}
+  
+.movie:hover {
+    box-shadow: 0 15px 30px rgb(0, 0, 0);
+    background-color: #e0e7ff;
+}
+  
+
+.movie img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+  
+.movie-content {
+    flex: 1;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+  
+
+.movie-title{
+    font-size: 22px;
+    margin: 0;
+    color: #0b0b0b;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+  
+.movie small {
+    color: #777;
+    font-size: 16px;
+    margin-top: 0;
+}
+  
+.mov{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.imvid{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.video{
+    max-width: 100%;
+}
+
+.image img{
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 0%;
+}
+
+.video iframe{
+    width: 800px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.des{
+    color: #2c2b2b;
+    font-size: 16px;
+    margin-top: 0px;
+    word-spacing: 50px;
+}
+
+.info{
+    text-align: left;
+    font-size: 25px;
+}
+
+.more{
+    font-size: 50px;
+    text-align: right;
+}
+  
